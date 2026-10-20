@@ -194,3 +194,17 @@ p {
     /* Remove o espaço abaixo do último parágrafos */
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+
+    .informacoes {
+        /* Organiza os cartões um abaixo do outro
+        quando a tela for pequena */
+    }
+
+
+    .conteudo h2 {
+        /* Diminui o tamanho do titulo no celular */
+        font-size: 1.6rem;
+    }
+}

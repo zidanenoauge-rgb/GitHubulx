@@ -184,3 +184,8 @@ p {
     font-size: 1.4rem;
     margin-bottom: 15px;
 }
+
+.info-card p {
+    /* Ajusta o espaçamento entre os parágrafos */
+    margin-bottom: 12px;
+}

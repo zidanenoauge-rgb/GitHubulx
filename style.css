@@ -14,8 +14,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+
+  /* ALTERAÇÃO: permite que a página tenha rolagem */
+  overflow-x: hidden;
+  overflow-y: auto;
+
   position: relative;
+
+  /* NOVO: organiza os elementos um abaixo do outro */
+  flex-direction: column;
+
+  /* NOVO: cria espaço ebtre o cartão e a nova seção */
+  gap: 60px;
+
+  /* NOVO: adiciona espaçamento nas bordas da página */
+  padding: 80px 20px;
 }
 
 body::before, body::after{
@@ -57,6 +70,9 @@ right: 25%;
   text-align: center;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, border-color 0.3s ease;
+
+  /* NOVO: impede que o cartão seja comprimido */
+  flex-shrink: 0;
 }
 
 .card:hover{
@@ -126,7 +142,6 @@ p {
 }
 
 /* Segunda parte do nosso css */
-
 .conteudo {
   /* Define o tamanho e a posição do card */
   position: relative;

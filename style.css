@@ -228,3 +228,9 @@ p {
         padding: 22px;
     }
 }
+
+/* PARTE 3: ESTILOS DAS NOVAS FUNCIONALIDADES */
+/* Coloca os novos elementos acima das luzes decorativas do fundo. */
+.menu-estudo, .rodape-estudo {
+  
+}

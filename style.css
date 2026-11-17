@@ -235,4 +235,5 @@ p {
   position: relative;
   z-index: 1;
   text-align: center;
+  gap: 12px;
 }

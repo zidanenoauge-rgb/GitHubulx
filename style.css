@@ -237,3 +237,15 @@ p {
   text-align: center;
   gap: 12px;
 }
+
+.menu-estudo a, .links-estudo a, .rodape-estudo a {
+  color: #93c5f5;
+  text-underline-offset: 4px;
+}
+
+.menu-estudo a {
+  padding: 12px 16px;
+  border: 1px solid #475569;
+  border-radius: 12px;
+  background: #111827;
+}
